@@ -6,6 +6,8 @@ public class TestClass {
         int n = scanner.nextInt();  // Read the number of characters
         String line = scanner.next(); // Read the second line containing characters as a string
         String modifiedLine = line.replace('.', 'B');
+        //Check if n is indeed greater than 0 or less than equal to 20//
+
         
         //Check if any houses are together, in this case, eliminate it first as borders wont be built.
         if (line.contains("HH")){
